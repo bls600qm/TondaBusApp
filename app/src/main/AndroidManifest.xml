@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WeekdayActivity"></activity>
+        <activity android:name=".FromTktkActivity" />
+        <activity android:name=".FromTndActivity" />
+        <activity android:name=".ToTktkActivity" />
+        <activity android:name=".ToTndActivity"></activity>
     </application>
 
 </manifest>
