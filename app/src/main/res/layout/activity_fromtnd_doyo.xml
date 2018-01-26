@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -10,38 +11,37 @@
 
 
         <Button
-            android:id="@+id/buttonDoyoFTk"
+            android:id="@+id/buttonDoyoFTon"
             android:layout_width="85dp"
             android:layout_height="50dp"
             android:background="@null"
             android:layout_alignParentTop="true"
-            android:layout_toStartOf="@+id/buttonNitiFTk" />
+            android:layout_toStartOf="@+id/buttonNitiFTon" />
         <Button
-            android:id="@+id/buttonNitiFTk"
+            android:id="@+id/buttonNitiFTon"
             android:layout_width="85dp"
             android:layout_height="50dp"
             android:background="@null"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true" />
         <Button
-            android:id="@+id/buttonHeiFTk"
+            android:id="@+id/buttonHeiFTon"
             android:layout_width="160dp"
             android:layout_height="50dp"
 
             android:background="@null"
             android:layout_alignParentTop="true"
-            android:layout_toStartOf="@+id/buttonDoyoFTk" />
+            android:layout_toStartOf="@+id/buttonDoyoFTon" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/fromtkdoyo"
+            android:src="@drawable/fromtondoyo"
             android:adjustViewBounds = "true"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true" />
         //android:adjustViewBounds = "true" でスクロールの余白が消える
 
     </RelativeLayout>
-
 </ScrollView>

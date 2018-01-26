@@ -15,33 +15,33 @@
 
 
         <Button
-            android:id="@+id/buttonDoyo"
+            android:id="@+id/buttonDoyoFTk"
             android:layout_width="85dp"
             android:layout_height="50dp"
             android:background="@null"
             android:layout_alignParentTop="true"
-            android:layout_toStartOf="@+id/buttonNiti" />
+            android:layout_toStartOf="@+id/buttonNitiFTk" />
         <Button
-            android:id="@+id/buttonNiti"
+            android:id="@+id/buttonNitiFTk"
             android:layout_width="85dp"
             android:layout_height="50dp"
             android:background="@null"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true" />
         <Button
-            android:id="@+id/buttonHei"
+            android:id="@+id/buttonHeiFTk"
             android:layout_width="160dp"
             android:layout_height="50dp"
 
             android:background="@null"
             android:layout_alignParentTop="true"
-            android:layout_toStartOf="@+id/buttonDoyo" />
+            android:layout_toStartOf="@+id/buttonDoyoFTk" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/fromtakahei"
+            android:src="@drawable/fromtkhei"
             android:adjustViewBounds = "true"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
